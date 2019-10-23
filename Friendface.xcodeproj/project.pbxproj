@@ -15,6 +15,8 @@
 		E6393A72235DE25A005954B6 /* FriendfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6393A71235DE25A005954B6 /* FriendfaceTests.swift */; };
 		E6393A7D235DE466005954B6 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6393A7C235DE466005954B6 /* Friend.swift */; };
 		E6393A7F235DEA90005954B6 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6393A7E235DEA90005954B6 /* Connection.swift */; };
+		E6393A81235F414E005954B6 /* JSONDecoder-Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6393A80235F414E005954B6 /* JSONDecoder-Remote.swift */; };
+		E6393A83235F4A05005954B6 /* FriendDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6393A82235F4A05005954B6 /* FriendDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		E6393A73235DE25A005954B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6393A7C235DE466005954B6 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		E6393A7E235DEA90005954B6 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		E6393A80235F414E005954B6 /* JSONDecoder-Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder-Remote.swift"; sourceTree = "<group>"; };
+		E6393A82235F4A05005954B6 /* FriendDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				E6393A63235DE25A005954B6 /* Assets.xcassets */,
 				E6393A65235DE25A005954B6 /* LaunchScreen.storyboard */,
 				E6393A68235DE25A005954B6 /* Info.plist */,
+				E6393A80235F414E005954B6 /* JSONDecoder-Remote.swift */,
+				E6393A82235F4A05005954B6 /* FriendDataSource.swift */,
 			);
 			path = Friendface;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6393A83235F4A05005954B6 /* FriendDataSource.swift in Sources */,
+				E6393A81235F414E005954B6 /* JSONDecoder-Remote.swift in Sources */,
 				E6393A7D235DE466005954B6 /* Friend.swift in Sources */,
 				E6393A5F235DE259005954B6 /* ViewController.swift in Sources */,
 				E6393A5D235DE259005954B6 /* AppDelegate.swift in Sources */,
